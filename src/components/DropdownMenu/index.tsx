@@ -42,7 +42,7 @@ const DropdownMenuFunc: React.FunctionComponent<Props> = (props) => {
                 {dropdownOptions.map((option) => {
                     return(
                         <li>
-                            <a href="https://mingyiliang.github.io/soochow/">{option}</a>
+                            <a href="/">{option}</a>
                         </li>
                     )
                 })}

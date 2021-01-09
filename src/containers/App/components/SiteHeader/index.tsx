@@ -14,18 +14,18 @@ const SoochowHeaderFunc: React.FunctionComponent<Props> = (props) => {
         <section id="header-section">
           <header id="site-header"> 
             <div id="logo">
-              <a href="https://mingyiliang.github.io/soochow/">
+              <a href="/">
                 SOOCHOW CO
               </a> 
             </div>
             <nav id="main-nav">
               <ul id="nav-list">
                 <div><a href={process.env.PUBLIC_URL + '/apparel'}>APPAREL</a></div>
-                <div><a href="https://mingyiliang.github.io/soochow/apparel">COAT</a></div>
-                <div><a href="https://mingyiliang.github.io/soochow/apparel">TROUSERS</a></div>
-                <div><a href="https://mingyiliang.github.io/soochow/apparel">FOOTWEAR</a></div>
-                <div><a href="https://mingyiliang.github.io/soochow/apparel">ACCESSORIES</a></div>
-                <div><a href="https://mingyiliang.github.io/soochow/collection">COLLECTION</a></div>
+                <div><a href="/apparel">COAT</a></div>
+                <div><a href="/apparel">TROUSERS</a></div>
+                <div><a href="/apparel">FOOTWEAR</a></div>
+                <div><a href="/apparel">ACCESSORIES</a></div>
+                <div><a href="/collection">COLLECTION</a></div>
             
                 <Icon name='user'/>
                 <Icon name='shopping bag'/>

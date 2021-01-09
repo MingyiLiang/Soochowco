@@ -19,7 +19,7 @@ const SoochowMainFootwareEntryFunc: React.FunctionComponent<Props> = (props) => 
                         <h1>SOOCHOW CO</h1>
                         <p>Soochow Co's signature footware series.</p>
                         <div id="homepage-btn-container_footware">
-                            <RedirectButton url="https://mingyiliang.github.io/soochow/collection" onDark={false} value="SHOP SOOCHOW.CO FOOTWARE"/>
+                            <RedirectButton url="/collection" onDark={false} value="SHOP SOOCHOW.CO FOOTWARE"/>
                         </div>
                     </div>
                 </div>

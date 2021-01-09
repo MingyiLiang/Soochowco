@@ -17,8 +17,8 @@ const SoochowMainCollectionEntryFunc: React.FunctionComponent<Props> = (props) =
                     <h1>SOOCHOW CO</h1>
                     <p>Suzhou Museum Collection</p>
                     <div id="homepage_btn-container-collection">
-                        <RedirectButton url="https://mingyiliang.github.io/soochow/collection" onDark={true} value="SHOP THE COLLECTION"/>
-                        <RedirectButton url="https://mingyiliang.github.io/soochow/apparel" onDark={true} value="SHOP SOOCHOW.CO APPAREL"/>
+                        <RedirectButton url="/collection" onDark={true} value="SHOP THE COLLECTION"/>
+                        <RedirectButton url="/apparel" onDark={true} value="SHOP SOOCHOW.CO APPAREL"/>
                     </div>
                 </div>
             </section>

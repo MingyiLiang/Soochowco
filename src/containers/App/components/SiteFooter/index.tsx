@@ -13,12 +13,12 @@ const SoochowFooterFunc: React.FunctionComponent<Props> = (props) => {
                     <ul id="site-footer__links">
                         <div id="site-footer__parent">
                             <div>SHOP</div>
-                            <div><a href="https://mingyiliang.github.io/soochow/apparel">Apparel</a></div>
-                            <div><a href="https://mingyiliang.github.io/soochow/collection">Coat</a></div>
-                            <div><a href="https://mingyiliang.github.io/soochow/collection">Trousers</a></div>
-                            <div><a href="https://mingyiliang.github.io/soochow/collection">Footwear</a></div>
-                            <div><a href="https://mingyiliang.github.io/soochow/collection">Accessories</a></div>
-                            <div><a href="https://mingyiliang.github.io/soochow/collection">Collection</a></div>
+                            <div><a href="/apparel">Apparel</a></div>
+                            <div><a href="/collection">Coat</a></div>
+                            <div><a href="/collection">Trousers</a></div>
+                            <div><a href="/collection">Footwear</a></div>
+                            <div><a href="/collection">Accessories</a></div>
+                            <div><a href="/collection">Collection</a></div>
                         </div>
                         <div id="site-footer__parent">
                             <div>SOOCHOW CO</div>
