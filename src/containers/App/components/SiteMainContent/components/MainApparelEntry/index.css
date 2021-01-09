@@ -1,0 +1,40 @@
+#landing_shop_image_section_apparel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+#anding_image_apparel-container {
+    width: 66.66%;
+}
+
+#landing_image_apparel {
+    width: auto;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+    padding-left: 1.5rem;
+}
+
+#homepage-shopping-entry_apparel {
+    width: 33.333%;
+}
+
+#homepage-shopping-entry-content_apparel {
+    background-color: white;
+    text-align: left;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+#homepage-shopping-entry-content_apparel h1 {
+    padding-top: 21rem;
+    font-size: 3.5rem;
+}
+
+#homepage-shopping-entry-content_apparel p {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+

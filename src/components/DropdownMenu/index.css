@@ -1,0 +1,51 @@
+.filter-menu__collection-list {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    min-width: 12.875rem;
+    width: 100%;
+    padding: 0.75rem 0;
+    border-top: 0.0625rem solid #bcbcbc;
+}
+
+.scroll-content__header {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.scroll-content__header:hover {
+    color: #979797;
+}
+
+.scroll-content__header:after {
+    content: '\2212';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.filter-menu__collection-list ul {
+    margin-top: 0.75rem;
+}
+
+.scroll-content__header.hide-content:after {
+    content: '\002B';
+}
+
+.scroll-content__content {
+    font-size: 0.8rem;
+}
+
+.scroll-content__content li {
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,49 @@
+#shopify-section-header {
+    border-bottom: 1px solid #bcbcbc;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+#site-header {
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    max-width: 80rem;
+    margin: auto;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.033em;
+}
+
+#logo {
+    text-align: left;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    font-size: 2.5em;
+    width: 20rem;
+    height: 2.7rem;
+    padding-top: 10px;
+}
+
+#logo a {
+    color: white;
+    background-color: black;
+}
+
+#main-nav {
+    margin: 0 0 0 1.5rem;
+    width: 100%;
+}
+
+#nav-list {
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+    font-size: inherit;
+}
+
+#nav-list div a{
+    color: black;
+}

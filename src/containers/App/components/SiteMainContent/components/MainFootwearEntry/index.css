@@ -1,0 +1,42 @@
+#landing_shop_image_section_footware {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#landing_image_footware-container {
+    width: 66.66%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#landing_image_footware {
+    width: 100%;
+    height: 100%;
+    max-height: 730px;
+    padding: 0 1.5rem;
+    object-fit: cover;
+    display: flex;
+}
+
+#homepage-shopping-entry_footware {
+    width: 33.333%;
+}
+
+#homepage-shopping-entry-content_footware {
+    background-color: white;
+    text-align: left;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 5rem;
+}
+
+#homepage-shopping-entry-content_footware h1 {
+    padding-top: 21rem;
+    font-size: 3.5rem;
+}
+
+#homepage-shopping-entry-content_footware p {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+

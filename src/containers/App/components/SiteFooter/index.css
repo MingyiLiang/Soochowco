@@ -1,0 +1,49 @@
+#shopify-section-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+#site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 1.5rem 0.75rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+}
+
+#site-footer__parent div a {
+    color: gray;
+}
+
+#site-footer__nav {
+    width: 55%;
+    margin-bottom: 0;
+}
+
+#site-footer__links {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#site-footer__parent {
+    color: gray;
+}
+
+#site-footer__links>div:first-child {
+    border: 0;
+}
+
+#site-footer__parent>div:first-child {
+    font-weight: bold;
+    color: black;
+}
+
+#email-signup {
+    width: 345px;
+}

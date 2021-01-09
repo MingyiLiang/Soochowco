@@ -1,0 +1,42 @@
+#MainContent {
+    position: relative;
+    z-index: 1;
+}
+
+.collection-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.collection__right {
+    width: calc(100% - 16rem);
+}
+
+.collection-header {
+    padding: 1.5rem 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.collection-header__card {
+    width: 100%;
+}
+
+.collection-header__content  {
+    text-align: center;
+}
+
+.collection-header__title {
+    font-size: 3.2rem;
+}
+
+.collection-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}

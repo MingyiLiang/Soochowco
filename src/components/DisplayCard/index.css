@@ -1,0 +1,46 @@
+.collection-product  {
+    padding: 0.75rem;
+    width: 33.33%;
+}
+
+.product-card {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+
+.product-card__image-carousel {
+    z-index: 0;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    position: relative;
+    padding: 2.3rem;
+}
+
+.product-card_information {
+    position: relative;
+    width: 100%;
+}
+
+.product-card_information h1 {
+    font-size: 1.0rem;
+}
+
+.product-card_information h2 {
+    font-size: 1.2rem;
+}
+
+.slick-prev {
+    left: 7%;
+    z-index: 7;
+    background: black;
+}
+
+.slick-next {
+    right: 7%;
+    z-index: 7;
+    background: black;
+}
+

@@ -1,0 +1,58 @@
+#homepage-collection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+#suzhou-museum-collection_background {
+    position: relative;
+    width: 100%;
+}
+
+#landing_image {
+    width: inherit;
+}
+
+#homepage-shopping-entry {
+    justify-content: flex-start;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    padding: 3rem 1.5rem;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    z-index: 4;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#homepage-shopping-entry h1 {
+    font-size: 3.5rem;
+    padding-left: 5rem;
+    padding-top: 19rem;
+}
+
+#homepage-shopping-entry p {
+    margin-left: 4rem;
+    font-size: 1.6rem;
+}
+
+#homepage_btn-container-collection {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+#homepage_btn-container-collection div:nth-child(2) {
+    margin-left: 1rem;
+}
+
+#homepage_btn-container div:nth-child(2){
+    margin-left: 2rem;
+}
