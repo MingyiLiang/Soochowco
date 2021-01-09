@@ -1,8 +1,7 @@
 {
-  "name": "soochow-web",
+  "name": "soochow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mingyiliang.github.io/soochow",
   "dependencies": {
     "@azure/ms-rest-js": "1.8.1",
     "@darkeyedevelopers/natural-cron.js": "1.0.2",
