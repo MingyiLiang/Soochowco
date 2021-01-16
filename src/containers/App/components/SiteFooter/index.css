@@ -47,3 +47,16 @@
 #email-signup {
     width: 345px;
 }
+
+.site-footer__copyright {
+    text-align: center;
+    color: #979797;
+    width: 100%;
+    font-size: 11px;
+}
+
+.site-footer__copyright__content {
+    display: flex;
+    margin-left: 33%;
+    margin-top: 1rem;
+}

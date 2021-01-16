@@ -1,3 +1,4 @@
+import { size } from 'lodash';
 import React from 'react';
 import FooterEmailSignupFunc from './components/emailSignup'
 require('./index.css')
@@ -43,6 +44,15 @@ const SoochowFooterFunc: React.FunctionComponent<Props> = (props) => {
                 </nav>
                 <section id="email-signup">
                     <FooterEmailSignupFunc/>
+                </section>
+
+                <section className="site-footer__copyright">
+                    <div className="site-footer__copyright__content">
+                        <div style={{marginRight:"1rem"}}>苏州织勤服饰有限公司版权所有</div>
+                        <div>
+                            <a href="https://beian.miit.gov.cn" style={{color:"#7e7e7e"}}>苏ICP备20004184号</a>
+                        </div>
+                    </div>
                 </section>
             </footer>
         </div>

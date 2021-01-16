@@ -36,6 +36,7 @@ export class App extends React.PureComponent<Props> {
                         <Route path="/collection" component={ShopApparel}/>
                     </Switch>
                     <SoochowFooter/>
+                    {/* <SoochowRecordCase/> */}
                 </BrowserRouter>
             </>
         )
